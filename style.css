@@ -66,8 +66,8 @@ h2 { margin-bottom: 0; font-size: clamp(2.8rem, 5.5vw, 5.5rem); line-height: .9;
 .image-crop-top img { object-position: 51% 78%; }
 .style-small .style-image { background: var(--yellow); }
 .style-large .style-image { background: var(--blue); }
-.stack-image { height: 270px; display: grid; place-items: center; padding: 18px; background: var(--blue); }
-.stack-image img { width: min(100%, 390px); height: auto; min-height: 100%; object-fit: cover; object-position: center bottom; border-radius: 12px; }
+.stack-image { height: 430px; display: block; padding: 0; background: var(--blue); }
+.stack-image img { width: 100%; height: 100%; object-fit: cover; object-position: center 84%; border-radius: 0; }
 .style-copy { min-height: 166px; padding: 24px; display: grid; grid-template-columns: 46px 1fr; gap: 16px; }
 .style-number { font: 500 12px "DM Mono", monospace; color: var(--blue); }
 .style-copy h3 { margin: 0 0 9px; font-size: clamp(1.7rem, 2.7vw, 2.6rem); line-height: .9; }
@@ -140,7 +140,7 @@ footer a { border-bottom: 2px solid var(--blue); padding-bottom: 3px; }
   .intro-copy { margin: 24px 0 40px; }
   .cookie-styles, .threads-section, .dough-story, .order-panel { grid-template-columns: 1fr; }
   .style-image { height: 390px; }
-  .stack-image { height: 270px; }
+  .stack-image { height: 390px; }
   .package-heading > p { margin-top: 22px; }
   .package-row { padding: 23px; }
   .package-name { display: block; }
