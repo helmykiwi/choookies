@@ -67,7 +67,8 @@ h2 { margin-bottom: 0; font-size: clamp(2.8rem, 5.5vw, 5.5rem); line-height: .9;
 .style-small .style-image { background: var(--yellow); }
 .style-large .style-image { background: var(--blue); }
 .stack-image { height: 270px; display: grid; place-items: center; padding: 18px; background: var(--blue); }
-.stack-image img { width: min(100%, 390px); height: 100%; object-fit: cover; object-position: center bottom; border-radius: 12px; }
+.stack-image img { width: min(100%, 390px); height: auto; min-height: 100%; object-fit: cover; object-position: center bottom; border-radius: 12px; transform: translateY(-42%); }
+.style-card:hover .stack-image img { transform: translateY(-42%) scale(1.04); }
 .style-copy { min-height: 166px; padding: 24px; display: grid; grid-template-columns: 46px 1fr; gap: 16px; }
 .style-number { font: 500 12px "DM Mono", monospace; color: var(--blue); }
 .style-copy h3 { margin: 0 0 9px; font-size: clamp(1.7rem, 2.7vw, 2.6rem); line-height: .9; }
