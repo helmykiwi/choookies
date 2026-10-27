@@ -60,14 +60,14 @@ h2 { margin-bottom: 0; font-size: clamp(2.8rem, 5.5vw, 5.5rem); line-height: .9;
 .intro-copy { margin: 30px 0 52px auto; width: min(100%, 375px); font-size: 17px; line-height: 1.5; }
 .cookie-styles { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .style-card { overflow: hidden; border-radius: var(--radius); background: white; }
-.style-image { height: 370px; overflow: hidden; }
+.style-image { height: 430px; overflow: hidden; }
 .style-image img, .story-photo img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s cubic-bezier(.16, 1, .3, 1); }
 .style-card:hover img { transform: scale(1.04); }
-.image-crop-top img { object-position: 51% 25%; }
+.image-crop-top img { object-position: 51% 78%; }
 .style-small .style-image { background: var(--yellow); }
 .style-large .style-image { background: var(--blue); }
-.stack-image { display: grid; place-items: center; padding: 22px; background: var(--yellow); }
-.stack-image img { width: min(100%, 430px); height: 100%; object-fit: cover; object-position: center 65%; }
+.stack-image { height: 270px; display: grid; place-items: center; padding: 18px; background: var(--blue); }
+.stack-image img { width: min(100%, 390px); height: 100%; object-fit: cover; object-position: center bottom; border-radius: 12px; }
 .style-copy { min-height: 166px; padding: 24px; display: grid; grid-template-columns: 46px 1fr; gap: 16px; }
 .style-number { font: 500 12px "DM Mono", monospace; color: var(--blue); }
 .style-copy h3 { margin: 0 0 9px; font-size: clamp(1.7rem, 2.7vw, 2.6rem); line-height: .9; }
@@ -139,7 +139,8 @@ footer a { border-bottom: 2px solid var(--blue); padding-bottom: 3px; }
   .intro-title, .package-heading { display: block; }
   .intro-copy { margin: 24px 0 40px; }
   .cookie-styles, .threads-section, .dough-story, .order-panel { grid-template-columns: 1fr; }
-  .style-image { height: 320px; }
+  .style-image { height: 390px; }
+  .stack-image { height: 270px; }
   .package-heading > p { margin-top: 22px; }
   .package-row { padding: 23px; }
   .package-name { display: block; }
